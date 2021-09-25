@@ -6,8 +6,23 @@
     "watch": "ts-node-dev --respawn index.dev.ts"
   },
   "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/cookie-parser": "^1.4.2",
     "module-alias": "^2.2.2",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "graphql": "^15.6.0"
+  },
+  "_moduleAliases": {
+    "#root": "./src"
   }
 }
