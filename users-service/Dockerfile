@@ -1,6 +1,6 @@
 FROM node:14
 
-WORKDIR /apt/app
+WORKDIR /opt/app
 
 RUN yarn
 
